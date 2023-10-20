@@ -1,0 +1,223 @@
+@font-face {
+    font-family: Koreanfont;
+    src: url(/font/Oswald-Regular.ttf);
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    font-family: Koreanfont;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: unset;
+    text-decoration-line: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border-style: none;
+}
+
+input {
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 5px 10px;
+}
+
+select {
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 5px 10px;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 15px;
+}
+
+.btn {
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1.5px solid red;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(246, 206, 29);
+    transition: 0.5s;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(203, 203, 203, 0.952);
+}
+
+.nav-left {
+    display: flex;
+    align-items: flex-end;
+}
+
+.main-nav-img {
+    width: 90px;
+    border-radius: 10px;
+}
+
+.main-nav-text {
+    margin-left: 10px;
+    font-size: larger;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: 1 1 15%;
+}
+
+.iconf {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-flag {
+    width: 10%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twitter {
+    background-image: url(/img/Twitter.svg);
+}
+
+.hh {
+    background-image: url(/img/Linkedin.svg);
+    background-size: 80%;
+    transform: translateY(-1px);
+}
+
+.mail {
+    background-image: url(/img/mail.svg);
+    background-size: 98%;
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+}
+
+.nav-svg {
+    background-image: url('/img/Red_star.svg');
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link {
+    margin-left: 5px;
+}
+
+/* Section-hero */
+
+.hero-head {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 50px;
+    z-index: 2;
+}
+
+.hero-description {
+    color: transparent;
+    transition: 0.5s;
+}
+
+.hero-description:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.hero-description-head {
+    width: 50%;
+    margin: auto;
+    padding: 0px 200px;
+    padding-bottom: 50px;
+    transform: translateY(-50px);
+}
+
+.hero-description-head:hover {
+    transform: translateY(0px);
+}
+
+.hero-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:15px
+}
+
+.hero-img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.hero-name {
+    margin-top: 0;
+    font-size: 32pt;
+}
+
+/* Section-form */
+
+.form {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: rgba(203, 203, 203, 0.952);
+    border-radius: 10px;
+}
+
+.form-btn {
+    cursor: pointer;
+}
